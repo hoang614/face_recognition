@@ -1,5 +1,9 @@
 Phát hiện khuôn mặt bằng MTCNN, trích xuất đặt trừng FaceNet, dùng SVM để phân loại
 
+
+Tải các thư viện cần thiết
+- pip install -r requirements.txt
+
 Tiền xử lý dữ liệu cắt khuôn mặt từ ảnh gốc:
 - python src/align_dataset_mtcnn.py  Dataset/FaceData/raw Dataset/FaceData/processed --image_size 160 --margin 32  --random_order --gpu_memory_fraction 0.25
 
